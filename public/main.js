@@ -1,7 +1,9 @@
+//  AI Assistance
+// Parts of this code were assisted with the use of ChatGPT as a learning tool.
+// All final code was reviewed, tested, and modified by the project author.
 
 
 
-// Like button  (+1)
 Array.from(document.getElementsByClassName('like-btn')).forEach(element => {
   element.addEventListener('click', function() {
     const parent = this.parentNode;
@@ -10,7 +12,7 @@ Array.from(document.getElementsByClassName('like-btn')).forEach(element => {
     const countEl = parent.querySelector('.vote-count');
     let count = parseInt(countEl.innerText) || 0;
 
-    count += 1; // like
+    count += 1;
     countEl.innerText = count;
 
     fetch('/messages/vote', {
@@ -21,7 +23,7 @@ Array.from(document.getElementsByClassName('like-btn')).forEach(element => {
   });
 });
 
-// Dislike button – rain (-1)
+
 Array.from(document.getElementsByClassName('dislike-btn')).forEach(element => {
   element.addEventListener('click', function() {
     const parent = this.parentNode;
@@ -30,7 +32,7 @@ Array.from(document.getElementsByClassName('dislike-btn')).forEach(element => {
     const countEl = parent.querySelector('.vote-count');
     let count = parseInt(countEl.innerText) || 0;
 
-    count -= 1; // dislike
+    count -= 1; 
     countEl.innerText = count;
 
     fetch('/messages/vote', {
@@ -41,7 +43,7 @@ Array.from(document.getElementsByClassName('dislike-btn')).forEach(element => {
   });
 });
 
-// Trash button – delete
+
 Array.from(document.getElementsByClassName('trash-btn')).forEach(element => {
   element.addEventListener('click', function() {
     const messageLi = this.closest('li.message');
