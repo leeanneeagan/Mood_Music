@@ -80,9 +80,9 @@ Then visit:
 
 Users register and log in via Passport local strategy. Once logged in, they can add tracks or playlists to share with the community.
 
--Music data is stored in MongoDB and rendered dynamically using EJS.
--Users can like (❤️) or dislike (👎) tracks, or delete (🗑️) their own.
--Logout clears the session, returning them to the login screen.
+- Music data is stored in MongoDB and rendered dynamically using EJS.
+- Users can like (❤️) or dislike (👎) tracks, or delete (🗑️) their own.
+- Logout clears the session, returning them to the login screen.
 
 ---
 
@@ -98,10 +98,10 @@ Likes: ❤️❤️❤️
 ## 🌠 Future Enhancements
 
 Personal playlists with uploaded tracks:
--Mood-based categories (chill, upbeat, focus, sleep)
--Public/private playlist toggles
--Notifications for liked tracks
--Animated music visualizers 🎶✨
+- Mood-based categories (chill, upbeat, focus, sleep)
+- Public/private playlist toggles
+- Notifications for liked tracks
+- Animated music visualizers 🎶✨
 
 ---
 
