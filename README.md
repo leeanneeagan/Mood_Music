@@ -1,5 +1,6 @@
 ## 🎵 Mood Music
-Mood Music is a full-stack web app that lets users sign up, log in, and share songs that match their mood, rate them too!
+
+ Mood Music is a full-stack web app that lets users sign up, log in, and share songs that match their mood, rate them too!
 Built with Node.js, Express, MongoDB, and EJS, it includes user authentication, full CRUD functionality, and a fresh, music-driven vibe. 🎧
 ---
 
