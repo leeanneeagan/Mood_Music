@@ -91,10 +91,13 @@ Users register and log in via Passport local strategy. Once logged in, they can 
 ---
 
 ##  Example
-Artist	       Song	              Average Rating
-FKJ	           Tadow	          ⭐⭐⭐⭐☆ (4.3)
-SZA	           Snooze	          ⭐⭐⭐⭐⭐ (5.0)
-Anderson .Paak	Come Down	      ⭐⭐⭐⭐☆ (4.6)
+
+| Artist          | Song         | Average Rating     |
+|-----------------|---------------|--------------------|
+| FKJ             | Tadow         | ⭐⭐⭐⭐☆ (4.3)       |
+| SZA             | Snooze        | ⭐⭐⭐⭐⭐ (5.0)       |
+| Anderson .Paak  | Come Down     | ⭐⭐⭐⭐☆ (4.6)       |
+
 ---
 
 ## 🌠Future Enhancements
