@@ -6,7 +6,7 @@ It’s built with **Node.js, Express, MongoDB, and EJS**, featuring user authent
 
 ---
 
-## 🧩 Tech Stack
+## Tech Stack
 - **Frontend:** EJS templating + Bootstrap + Custom CSS (music-themed gradients)  
 - **Backend:** Node.js + Express.js  
 - **Database:** MongoDB (Mongoose)  
@@ -15,13 +15,13 @@ It’s built with **Node.js, Express, MongoDB, and EJS**, featuring user authent
 
 ---
 
-## 💫 Features
-- 🎶 User authentication (Signup / Login / Logout)  
-- 🎵 Create and post tracks or playlists  
-- ❤️ Like, dislike, or delete songs/playlists  
-- 📻 Browse all users’ shared music  
-- 🖌️ Responsive, modern UI with music-inspired styling  
-- 🔒 Passwords hashed and secured with bcrypt  
+## Features
+- User authentication (Signup / Login / Logout)  
+- Create and post tracks or playlists  
+- Like, dislike, or delete songs/playlists  
+- Browse all users’ shared music  
+- Responsive, modern UI with music-inspired styling  
+- Passwords hashed and secured with bcrypt  
 
 ---
 
