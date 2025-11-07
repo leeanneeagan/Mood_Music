@@ -1,31 +1,34 @@
-# 🎵 Mood Music
-
-Mood Music is a full-stack web application that lets users sign up, log in, and create, share, or browse curated playlists and tracks that match their mood.  
-
-It’s built with **Node.js, Express, MongoDB, and EJS**, featuring user authentication and CRUD functionality — all wrapped in a chill, music-driven aesthetic. 🎧
-
+## 🎵 Mood Music
+Mood Music is a full-stack web app that lets users sign up, log in, and share songs that match their mood, rate them too!
+Built with Node.js, Express, MongoDB, and EJS, it includes user authentication, full CRUD functionality, and a fresh, music-driven vibe. 🎧
 ---
 
+![Mood Music App Screenshot](public/img/main.png)
+
+---
 ## Tech Stack
+
 - **Frontend:** EJS templating + Bootstrap + Custom CSS (music-themed gradients)  
 - **Backend:** Node.js + Express.js  
 - **Database:** MongoDB (Mongoose)  
-- **Authentication:** Passport.js (local strategy)  
+- **Authentication:** Passport.js (Local Strategy)  
 - **Other:** dotenv, express-session, bcrypt  
 
 ---
 
-## Features
-- User authentication (Signup / Login / Logout)  
-- Create and post tracks or playlists  
-- Like, dislike, or delete songs/playlists  
-- Browse all users’ shared music  
-- Responsive, modern UI with music-inspired styling  
-- Passwords hashed and secured with bcrypt  
+## ✨ Features
 
+- User authentication (Signup / Login / Logout)  
+- Add **Artist** + **Song Title** for every post  
+- Rate songs (1–5 stars)  
+- See **average rating** calculated automatically from all users  
+- Edit or delete your own songs  
+- Browse music shared by all users  
+- Responsive, modern UI with a music-inspired vibe  
+- Passwords securely hashed with bcrypt 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone this repo**
 ```bash
@@ -46,13 +49,13 @@ SESSION_SECRET=your_secret_key
 npm start
 
 Then visit:
-👉 http://localhost:3000
+http://localhost:3000
 ```
 
 
 ---
 
-## 🗂️ Folder Structure
+##  Folder Structure
 ```
 .  
 ├── public/  
@@ -76,54 +79,43 @@ Then visit:
 
 ---
 
-## 🧠 Core Logic
+## Core Logic
 
-Users register and log in via Passport local strategy. Once logged in, they can add tracks or playlists to share with the community.
+Users register and log in via Passport local strategy. Once logged in, they can add songs to share with the community.
 
 - Music data is stored in MongoDB and rendered dynamically using EJS.
-- Users can like (❤️) or dislike (👎) tracks, or delete (🗑️) their own.
+- Each song can be rated 1–5 stars by any logged-in user.
 - Logout clears the session, returning them to the login screen.
 
 ---
 
-## 💻 Example
+##  Example
+Artist	       Song	              Average Rating
+FKJ	           Tadow	          ⭐⭐⭐⭐☆ (4.3)
+SZA	           Snooze	          ⭐⭐⭐⭐⭐ (5.0)
+Anderson .Paak	Come Down	      ⭐⭐⭐⭐☆ (4.6)
+---
 
-Name: leeanneeagan@example.com  
-Track: “Chill Vibes - Lo-fi Beats”  
-Likes: ❤️❤️❤️
-
+## 🌠Future Enhancements
+-  Mood-based song categories (chill, hype, focus, romantic)
+-  Create personal playlists with public/private toggle
+-  Notifications when someone rates your song
+-  Real-time animated music visualizer synced to track energy
 
 ---
 
-## 🌠 Future Enhancements
+##  Author
 
-Personal playlists with uploaded tracks:
-- Mood-based categories (chill, upbeat, focus, sleep)
-- Public/private playlist toggles
-- Notifications for liked tracks
-- Animated music visualizers 🎶✨
-
----
-
-## 🪶 Author
-
-Leeanne Eagan 🎵
+Leeanne Eagan 
 Curating vibes and building interactive musical experiences.
 GitHub
 
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License — remix, share, and spread the mood!
 
 
----
-
-This is fully **GitHub-ready**, using Markdown formatting, emojis, and headings for clarity.  
-
-If you want, I can also create a **version that visually uses emojis for each folder and file** to make it feel like a “music mood board” inside GitHub — very aesthetic.  
-
-Do you want me to make that version too?
 
